@@ -1,0 +1,86 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+    color: brown;
+
+
+}
+.gameContainer{
+    border: solid purple;
+    border-style: double;
+    border-radius: 5%;
+    border-width: 1em;
+    height: 70vh;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.btnContainer{
+    /* border: solid orange; */
+    width: 60%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 21%;
+    margin-right: 19%;
+    margin-top: 1%;
+}
+#btnBgColor{
+    width: 180px;
+    height: 40px;
+    background-color: orange;
+    color: rgb(85, 87, 85);
+    font-weight: bold; 
+    cursor: pointer;
+}
+#btnStart{ 
+    border: solid green;
+    width: 100px;
+    height: 40px;
+    background-color: lime;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+#btnReset{
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+}
+    
+#btnBdColor{
+    width: 180px;
+    height: 40px;
+    background-color: pink;
+    color: rgb(85, 87, 85);
+    font-weight: bold; 
+    cursor: pointer;
+}
+.infoContainer{
+    border: solid blue;
+    border-style: dotted;
+    border-width: .2em;
+    width: 60%;
+    margin-left: 21%;
+    margin-right: 19%;
+    margin-top: 2%;
+      
+}
+h4{
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: .2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+ol{
+    text-align: left;
+    font-size: .7em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}

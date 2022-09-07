@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>JUDWORD GUESSING GAME</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>WELCOME TO JUDWORD GUESSING GAME</h1>
+        <h3>Let's guess the Word</h3>
+    <div class="gameContainer">
+        <div id="currentWord">
+            <strong><h2>_ _ _ _ _ _</h2></strong>
+        </div>
+
+    </div>
+
+    <div class="btnContainer">
+        
+        <div><button id="btnBgColor" onclick="changeBgColor()">CHANGE BACKGROUND</button></div>
+        <div><button id="btnStart" onclick="startTheGame()">START</button></div>
+        <div><button id="btnReset" onclick="resetTheGame()">RESET</button></div>
+        <d><button id="btnBdColor" onclick="changeBdColor()">CHANGE BOARD</button></div>
+        
+    </div>
+
+    <div class="infoContainer">
+        <h4>Instructions</h4> <hr>
+        <ol>
+            <li>The game is played by turns: Player 1, then Player 2</li>
+            <li>When it's a player's turn, he has 30 seconds to guess the word</li>
+            <li>Each word winned equals 1 point, thus score increases by 1</li>
+            <li>The player to reach 10 points wins the game</li>
+          </ol>
+    </div>
+        
+
+
+        <script src="wordguess.js" async defer></script>
+    </body>
+</html>
