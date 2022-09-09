@@ -7,19 +7,61 @@
         <title>JUDWORD GUESSING GAME</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link 
+        rel="stylesheet" 
+        media="screen and (max-width: 1400px)"
+        href="style.css">
+        <link
+        rel="stylesheet"
+        media="screen and (max-width: 900px)"
+        href="med.css"
+      />
+      <link
+        rel="stylesheet"
+        media="screen and (max-width: 600px)"
+        href="small.css"
+      />
     </head>
     <body>
         <h1>WELCOME TO JUDWORD GUESSING GAME</h1>
         <h3>Let's guess the Word</h3>
     <div class="gameContainer">
-        <img src="images/gwbg1.gif" alt="">
-        <div id="currentWord">
-            <strong><h2>_ _ _ _ _ _</h2></strong>
+        <!-- <img src="images/gwbg1.gif" alt=""> -->
+        <div class="players">
+            <div class="player1">
+                <h2>Player 1 Score:
+                <span id="player1Scoreboard"> 0</span>
+                </h2>
+                <h3>Guesses left:
+                    <span id="p1guess"> 3</span>
+                    </h3>
+            </div>
+
+            <div class="player2">
+                <h2>Player 2 Score:
+                <span id="player2Scoreboard"> 0</span>
+                </h2>
+                <h3>Guesses left:
+                    <span id="p2guess"> 3</span>
+                    </h3>
+                
+            </div>
+            
         </div>
-
+        <h3 id="message">Player 1 Turn</h3>
+<!-- Game content -->
+        <div class="gameContent">
+            <div class="word">TEOLBT</div>
+            <div class="hint">
+                <p>Hint: A container, typically made of glass or 
+                    plastic and with a narrow neck, used for storing drinks or
+                     other liquids. (French translation: Bouteille)</p>
+            <p class="timer">Time left: <span><strong>30</strong>s</span></p>
+            </div>
+            <input type="text" placeholder="Please, enter a valid word">
+        </div>
     </div>
-
+    
     <div class="btnContainer">
         
         <div><button id="btnBgColor" onclick="changeBgColor()">CHANGE BACKGROUND</button></div>
@@ -33,7 +75,7 @@
         <h4>Instructions</h4> <hr>
         <ol>
             <li>The game is played by turns: Player 1, then Player 2</li>
-            <li>When it's a player's turn, he has 30 seconds to guess the word</li>
+            <li>When it's a player's turn, he has 20 seconds to guess the word and 3 guesses</li>
             <li>Each word winned equals 1 point, thus score increases by 1</li>
             <li>The player to reach 10 points wins the game</li>
           </ol>

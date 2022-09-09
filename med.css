@@ -1,0 +1,17 @@
+
+
+
+.gameContainer{
+    background-image: url("https://pngfolio.com/images/all_img/copy/1637498795tv-png.png");
+    background-size: cover;
+    background-color: white;
+    /* border: solid rgb(248, 244, 244); */
+    /* border-style: double; */
+    border-radius: 3%;
+    border-width: 1em;
+    height: 64vh;
+    width: 45%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}

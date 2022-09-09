@@ -1,23 +1,85 @@
-body{
+body {
+    background-image: url("https://images.genial.ly/5c9357997082c2326aa1498d/062d3b29-e723-411b-86f5-54888b2d1013.gif?genial&1653091200190");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
     background-color: aquamarine;
+    background-size: cover;
     text-align: center;
-    color: brown;
-
-
+    color: orangered;
 }
-.gameContainer{
-    background-image: ;
-    border: solid purple;
-    border-style: double;
-    border-radius: 5%;
+    h1 {
+        font-family: 'Faster One', cursive;
+        text-shadow: 1px 1px 10px orange;
+    }
+.gameContainer {
+    background-image: url("https://pngfolio.com/images/all_img/copy/1637498795tv-png.png");
+    background-size: cover;
+    background-color: white;
+    /* border: solid rgb(248, 244, 244); */
+    /* border-style: double; */
+    border-radius: 3%;
     border-width: 1em;
-    height: 70vh;
+    height: 79vh;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.players {
+    width: 92%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 4%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+border-bottom: 1px solid #ccc ;
+}
+
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: purple;
+}
+
+#player1Scoreboard {
+    color: red;
+}
+
+.player1 {
+    text-align: left;
+}
+
+#p1guess {
+    color: red;
+}
+
+#player2Scoreboard {
+    color: red;
+}
+
+.player2 {
+    text-align: left;
 
 }
-.btnContainer{
+
+#p2guess {
+    color: red;
+}
+
+#message {
+    color: green;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 3%;
+    margin-bottom: 5%
+}
+
+.btnContainer {
     /* border: solid orange; */
     width: 60%;
     height: 8vh;
@@ -28,16 +90,18 @@ body{
     margin-right: 19%;
     margin-top: 1%;
 }
-#btnBgColor{
+
+#btnBgColor {
     width: 180px;
     height: 40px;
     background-color: orange;
     color: rgb(85, 87, 85);
-    font-weight: bold; 
+    font-weight: bold;
     cursor: pointer;
     border-radius: 10%;
 }
-#btnStart{ 
+
+#btnStart {
     border: solid green;
     width: 100px;
     height: 40px;
@@ -47,7 +111,8 @@ body{
     cursor: pointer;
     border-radius: 10%;
 }
-#btnConfirm{
+
+#btnConfirm {
     width: 100px;
     height: 40px;
     background-color: yellow;
@@ -56,36 +121,81 @@ body{
     cursor: pointer;
     border-radius: 10%;
 }
-    
-#btnBdColor{
+
+#btnBdColor {
     width: 180px;
     height: 40px;
     background-color: pink;
     color: rgb(85, 87, 85);
-    font-weight: bold; 
+    font-weight: bold;
     cursor: pointer;
     border-radius: 10%;
 }
-.infoContainer{
+
+.infoContainer {
     border: solid blue;
     border-style: dotted;
     border-width: .2em;
     width: 60%;
+    background-image: url("https://media.vanityfair.com/photos/61fc05cc66597c17dbaa4917/5:3/w_1999,h_1199,c_limit/why-is-the-world-playing-wordle.gif");
+    background-size: cover;
     margin-left: 21%;
     margin-right: 19%;
     margin-top: 2%;
-      
+
 }
-h4{
+
+h4 {
     text-align: left;
     margin-left: 2em;
-    margin-bottom: .2em;
+    margin-top: .2em;
+    margin-bottom: .1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+    color: rgb(255, 0, 238);
 }
-ol{
+
+ol {
     text-align: left;
     font-size: .7em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
+    color: rgb(255, 0, 238);
+}
+
+
+.gameContent{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gameContent .word{
+    font-size: 2em;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-wrap: break-word;
+}
+
+.gameContent .hint{
+    color: black;
+    width: 90%;
+    margin-left: 6%;
+    margin-right: 4%;
+    text-align: left;
+    
+}
+.gameContent .timer{
+    font-size: 1.2em;
+    color: green;
+    font-weight: bold;
+}
+.gameContent input{
+    width: 90%;
+    height: 50px;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    
 }
