@@ -8,13 +8,13 @@ body {
     color: orangered;
 }
     h1 {
-        font-family: 'Faster One', cursive;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-shadow: 1px 1px 10px orange;
     }
 .gameContainer {
     background-image: url("https://pngfolio.com/images/all_img/copy/1637498795tv-png.png");
     background-size: cover;
-    background-color: white;
+    background-color: whitesmoke;
     /* border: solid rgb(248, 244, 244); */
     /* border-style: double; */
     border-radius: 3%;
@@ -39,44 +39,86 @@ border-bottom: 1px solid #ccc ;
 }
 
 h2 {
-    color: blue;
+    color: red;
 }
 
 h3 {
-    color: purple;
+    color: red;
 }
 
-#player1Scoreboard {
-    color: red;
+.player1Scoreboard {
+    color: darkblue;
 }
 
 .player1 {
     text-align: left;
 }
 
-#p1guess {
-    color: red;
+.p1guess {
+    color: purple;
 }
 
-#player2Scoreboard {
-    color: red;
+.player2Scoreboard {
+    color: darkblue;
 }
 
 .player2 {
     text-align: left;
 
 }
-
-#p2guess {
+span{
     color: red;
 }
 
-#message {
-    color: green;
+.p2guess {
+    color: purple;
+}
+
+.message {
+    color: orange;
     font-weight: bold;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 3%;
     margin-bottom: 5%
+}
+
+.gameContent{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.gameContent .word{
+    font-size: 1.7em;
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    word-wrap: break-word;
+    margin-left: 10px;
+}
+
+.gameContent .hint{
+    color: black;
+    width: 90%;
+    margin-left: 6%;
+    margin-right: 4%;
+    text-align: left;
+    /* margin-top: 10%; */
+}
+.gameContent .time{
+    font-size: 1.2em;
+    color: green;
+    font-weight: bold;
+}
+.gameContent input{
+    width: 90%;
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    
 }
 
 .btnContainer {
@@ -91,7 +133,7 @@ h3 {
     margin-top: 1%;
 }
 
-#btnBgColor {
+.btnBgColor {
     width: 180px;
     height: 40px;
     background-color: orange;
@@ -101,7 +143,7 @@ h3 {
     border-radius: 10%;
 }
 
-#btnStart {
+.btnStart {
     border: solid green;
     width: 100px;
     height: 40px;
@@ -112,7 +154,7 @@ h3 {
     border-radius: 10%;
 }
 
-#btnConfirm {
+.btnConfirm {
     width: 100px;
     height: 40px;
     background-color: yellow;
@@ -122,7 +164,7 @@ h3 {
     border-radius: 10%;
 }
 
-#btnBdColor {
+.btnBdColor {
     width: 180px;
     height: 40px;
     background-color: pink;
@@ -163,39 +205,3 @@ ol {
     color: rgb(255, 0, 238);
 }
 
-
-.gameContent{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.gameContent .word{
-    font-size: 2em;
-    text-align: center;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1em;
-    word-wrap: break-word;
-}
-
-.gameContent .hint{
-    color: black;
-    width: 90%;
-    margin-left: 6%;
-    margin-right: 4%;
-    text-align: left;
-    
-}
-.gameContent .timer{
-    font-size: 1.2em;
-    color: green;
-    font-weight: bold;
-}
-.gameContent input{
-    width: 90%;
-    height: 50px;
-    background: transparent;
-    border-radius: 5px;
-    outline: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.2em;
-    
-}
