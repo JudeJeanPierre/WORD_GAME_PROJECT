@@ -54,19 +54,21 @@
         <div class="gameContent">
             <div class="word"></div>
             <div class="more">
-                <p class="hint">Hint: <span> </span></p>
-            <p class="time">Time left: <span><strong></strong>s</span></p>
+                <p class="hint">Hint: <span> </span>
+                </p>
+            <p class="time">Time left: <span><strong></strong></span>s
+            </p>
             </div>
-            <input type="text" placeholder="Please, enter a valid word">
+            <input class="input" type="text" placeholder="Please, enter a valid word">
         </div>
     </div>
     
     <div class="btnContainer">
         
-        <div><button class ="btnBgColor">CHANGE BACKGROUND</button></div>
-        <div><button class ="btnStart">NEW WORD</button></div>
-        <div><button class ="btnConfirm">CONFIRM WORD</button></div>
-        <div><button class ="btnBdColor">CHANGE BOARD</button></div>
+        <div><button class ="btnBgColor" onclick="changeBodyBg('lime');">CHANGE BACKGROUND</button></div>
+        <div><button class ="btnStart">START/REFRESH</button></div>
+        <div><button class ="btnConfirm" onclick="confirmWord()">CONFIRM WORD</button></div>
+        <div><button class ="btnBdColor" onclick="changeBdColor('yellow');">CHANGE BOARD</button></div>
         
     </div>
 

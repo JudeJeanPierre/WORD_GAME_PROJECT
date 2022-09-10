@@ -98,12 +98,22 @@ span{
 }
 
 .gameContent .hint{
-    color: black;
+    font-size: 1em;
+    font-weight: bold;
+    color: darkblue;
     width: 90%;
     margin-left: 6%;
     margin-right: 4%;
+    margin-top: 5%;
+    margin-bottom: 4%;
     text-align: left;
     /* margin-top: 10%; */
+}
+.hint span{
+    color: darkblue;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1em;
 }
 .gameContent .time{
     font-size: 1.2em;
@@ -117,7 +127,7 @@ span{
     border-radius: 5px;
     outline: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2em;
+    font-size: 1em;
     
 }
 
@@ -128,8 +138,8 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 21%;
-    margin-right: 19%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 1%;
 }
 
@@ -145,7 +155,7 @@ span{
 
 .btnStart {
     border: solid green;
-    width: 100px;
+    width: 150px;
     height: 40px;
     background-color: lime;
     color: red;
@@ -181,8 +191,8 @@ span{
     width: 60%;
     background-image: url("https://media.vanityfair.com/photos/61fc05cc66597c17dbaa4917/5:3/w_1999,h_1199,c_limit/why-is-the-world-playing-wordle.gif");
     background-size: cover;
-    margin-left: 21%;
-    margin-right: 19%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-top: 2%;
 
 }
