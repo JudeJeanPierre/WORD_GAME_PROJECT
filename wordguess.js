@@ -4,152 +4,172 @@ const words = [
     hint : "Position of someone or something (French translation: Position)"
 },
 {
+    word : "wonderful",
+    hint : "Inspiring delight, pleasure, or admiration; extremely good; marvelous. (French translation: Merveilleux)"
+},
+{
+    word : "Sibling",
+    hint : "Offspring having one or both parents in common; a brother or sister. (French translation: Frère/Soeur)",
+},
+{
+    word : "christian",
+    hint : "Relating to or professing Christianity or its teachings. (French translation: Chrétien)"
+},
+{
+    word : "available",
+    hint : "Able to be used or obtained; at someone's disposal. (French translation: Disponible)"
+},
+{
+    word : "church",
+    hint : "A building used for public Christian worship. (French translation: Eglise)"
+},
+{
     word : "school",
-    hint : "... (French translation:...)"
+    hint : "An institution for educating children. (French translation: Ecole)"
 },
 {
-    word : "alumni",
-    hint : "... (French translation:...)"
+    word : "student",
+    hint : "A person who is studying at a school or college. (French translation: Etudiant)"
 },
 {
-    word : "restaurant",
-    hint : "... (French translation:...)"
+    word : "cohort",
+    hint : "A group of people banded together or treated as a group. (French translation: Promotion)"
 },
 {
     word : "hospital",
-    hint : "... (French translation:...)"
+    hint : "An institution providing medical and surgical treatment and nursing care for sick or injured people. (French translation: Hopital)"
 },
 {
     word : "garden",
-    hint : "... (French translation:...)"
+    hint : "A small piece of ground used to grow vegetables, fruit, herbs, or flowers. (French translation: Jardin)"
 },
 {
     word : "thanks",
-    hint : "... (French translation:...)"
+    hint : "An expression of gratitude; another way of saying thank you. (French translation: Merci)"
 },
 {
     word : "morning",
-    hint : "... (French translation:...)"
+    hint : "The period of time between midnight and noon, especially from sunrise to noon. (French translation: Matin)"
 },
 {
     word : "afternoon",
-    hint : "... (French translation:...)"
+    hint : "The time from noon or lunchtime to evening. (French translation: Après-midi)",
 },
 {
     word : "teacher",
-    hint : "... (French translation:...)"
+    hint : "A person who teaches, especially in a school. (French translation: Enseignant)"
 },
 {
     word : "classmate",
-    hint : "... (French translation:...)"
+    hint : "A fellow member of a class at school or college. (French translation: Camarade de classe)"
 },
 {
     word : "circumstance",
-    hint : "... (French translation:...)"
+    hint : "A fact or condition connected with or relevant to an event or action. (French translation: Circonstance)"
 },
 {
     word : "average",
-    hint : "... (French translation:...)"
+    hint : "Median, or the mean, which is calculated by dividing the sum of the values in the set by their number. (French translation: Moyenne)"
 },
 {
     word : "software",
-    hint : "... (French translation:...)"
+    hint : "A set of instructions, data or programs used to operate computers and execute specific tasks. (French translation: Logiciel)"
 },
 {
     word : "engineer",
-    hint : "... (French translation:...)"
+    hint : "A person who designs, builds, or maintains engines, machines, or public works. (French translation: Ingénieur)"
 },
 {
     word : "wedding",
-    hint : "... (French translation: Mariage)"
+    hint : "A marriage ceremony, especially considered as including the associated celebrations. (French translation: Mariage)"
 },
 {
     word : "employment",
-    hint : "... (French translation: Emploi)"
+    hint : "The condition of having paid work; the action of giving work to someone. (French translation: Emploi)"
 },
 {
     word : "interview",
-    hint : "... (French translation: Entrevue)"
+    hint : "A formal meeting in which one or more persons question, consult, or evaluate another person. (French translation: Entrevue)"
 },
 {
     word : "employer",
-    hint : "... (French translation: patron)"
+    hint : "One that employs or makes use of something or somebody. (French translation: patron)"
 },
 {
     word : "employee",
-    hint : "... (French translation: Employé)"
+    hint : "Someone who gets paid to work for a person or company. (French translation: Employé, Salarié)"
 },
 {
     word : "brother",
-    hint : "... (French translation: Frère)"
+    hint : "A man or boy in relation to other sons and daughters of his parents. (French translation: Frère)"
 },
 {
     word : "beautiful",
-    hint : "... (French translation: Belle)"
+    hint : "Pleasing the senses or mind aesthetically; of a very high standard; excellent. (French translation: Belle)"
 },
 {
     word : "computer",
-    hint : "... (French translation: Ordinateur)"
+    hint : "An electronic device for storing and processing data. (French translation: Ordinateur)"
 },
 {
     word : "library",
-    hint : "... (French translation: Bibliothèque)"
+    hint : "A building or room containing collections of books, periodicals... (French translation: Bibliothèque)"
 },
 {
     word : "fortunate",
-    hint : "... (French translation: Riche)"
+    hint : "Favored by or involving good luck or fortune; lucky. (French translation: Riche)"
 },
 {
     word : "happy",
-    hint : "... (French translation: Content)"
+    hint : "Feeling or showing pleasure or contentment; fortunate and convenient. (French translation: Content)"
 },
 {
     word : "notebook",
-    hint : "... (French translation: Cahier)"
+    hint : "A small book with blank or ruled pages for writing notes in (French translation: Cahier)"
 },
 {
     word : "homework",
-    hint : "... (French translation: devoir de maison)"
+    hint : "Schoolwork that a student is required to do at home. (French translation: devoir de maison)"
 },
 {
     word : "knowledge",
-    hint : "... (French translation: Connaissance)"
+    hint : "Facts, information, and skills acquired by a person through experience or education. (French translation: Connaissance)"
 },
 {
     word : "bottle",
-    hint : "... (French translation:Bouteille)"
+    hint : "A container, typically made of glass or plastic, used for storing drinks or other liquids. (French translation:Bouteille)"
 },
 {
     word : "husband",
-    hint : "... (French translation: Mari, époux)"
+    hint : "A married man considered in relation to his spouse. (French translation: Mari, époux)"
 },
 {
     word : "bedroom",
-    hint : "... (French translation: Chambre à coucher)"
+    hint : "A room for sleeping in. (French translation: Chambre à coucher)"
 },
 {
     word : "sneaker",
-    hint : "... (French translation: Tennis)"
+    hint : "A soft shoe with a rubber sole worn for sports or casual occasions. (French translation: Tennis)"
 },
 {
     word : "party",
-    hint : "... (French translation: Fête)"
+    hint : "A social gathering of invited guests, typically involving eating, drinking, and entertainment. (French translation: Fête)"
 },
 {
     word : "delivery",
-    hint : "... (French translation: Livraison)"
+    hint : "The action of delivering letters, packages, or ordered goods. (French translation: Livraison)"
 },
 {
     word : "network",
-    hint : "... (French translation: Réseau)"
+    hint : "A group or system of interconnected people or things (French translation: Réseau)"
 },
 {
     word : "congratulations",
-    hint : "... (French translation: Félicitations)"
+    hint : "Expressions of pleasure and best wishes on the occasion of another's good fortune or success. (French translation: Félicitations)"
 },
 {
     word :"greetings",
-    hint : "... (French translation: Salutations)"
+    hint : "The action of giving a sign of welcome or recognition. (French translation: Salutations)"
 }
 ];
 
@@ -168,22 +188,30 @@ const input = document.querySelector("input");
 const timeLeftElement = document.querySelector(".time span");
 const guesses1Left = document.querySelector(".p1guess span");
 const guesses2Left = document.querySelector(".p2guess span");
-// alert(player1Turn);
+const applause = document.getElementById("applause");
+const ooh = document.getElementById("ooh");
+const buzzer = document.getElementById("buzzer");
+const wrong = document.getElementById("wrong");
+const bell = document.getElementById("bell");
+const win = document.getElementById("win");
+const fanfare = document.getElementById("fanfare");
 
 // Variables for game state
 let player1Scoreboard = 0;
 let player2Scoreboard  = 0;
-let winningScore = 10;
 let word = "";
+let winningScore = 10;
 let stopwatch; 
 let p1guess = 3;
 let p2guess = 3;
 let time = 20; 
 let turn = 1;
-// let player1Turn = true;
+
+// GAME START
+    alert('WELCOME TO JUDWORD GUESSING GAME');
+    alert('Press ENTER or OK to start the game');
 
     function startGame(){
-    
     let randomSelect = Math.floor(Math.random() * words.length);
     let randomObject = words [randomSelect];
     word = randomObject.word.toLowerCase();
@@ -191,11 +219,7 @@ let turn = 1;
 
     let wordArray = word.split("").sort(() => Math.random() - 0.5);
     let confuseWord = wordArray.join("");
-    // return confuseWord
     
-    
-    // if(confuseWord === word)
-    // return startGame();
     clearInterval(stopwatch)
     p1guess = 3;
     p2guess = 3;
@@ -210,6 +234,7 @@ let turn = 1;
     input.value = "";
     confirmWordButton.setAttribute("disabled", true);
 
+// Set stopwatch & Time left
     stopwatch = setInterval(() => {
         if(time > 0){
             confirmWordButton.removeAttribute("disabled", true);
@@ -217,7 +242,9 @@ let turn = 1;
             timeLeftElement.innerText = time;
             console.log(time)
         } else{
-            alert(`Sorry, your time is over. The correct word was: ${word.toUpperCase()}`);
+            buzzer.play();
+            ooh.play();
+            alert(`Sorry, your time is up. GAME PASSED OVER. The correct word was: ${word.toUpperCase()}`);
             clearInterval(stopwatch)
             confirmWordButton.setAttribute("disabled", true);
             if(turn === 1){
@@ -231,14 +258,18 @@ let turn = 1;
         } 
         
     }, 1000);
-
+// Confirm the user input WORD
     confirmWord = () => {
         let userWord = input.value.toLowerCase();
         if(!userWord) {
-            return alert ('Please, enter a word to confirm');
+            wrong.play()
+            alert ('Please, enter a word to confirm');
+            
         }
         if(userWord === word){
+            applause.play();
             alert(`Congratulations! ${userWord.toUpperCase()} is correct`)
+            bell.play();
             if(turn === 1){
             player1Scoreboard++;
             score1Element.innerText = player1Scoreboard;
@@ -247,17 +278,22 @@ let turn = 1;
                 score2Element.innerText = player2Scoreboard;
                 }
             changeTurns()
+// Guesses left
         } else{
             if(turn === 1){
                 p1guess -= 1
                 alert(`Nice guess. Try again! You have ${p1guess} left`)
                 guesses1Left.innerText = p1guess;
                 if(p1guess === 0){
+                buzzer.play();
+                ooh.play;
                 clearInterval(stopwatch)
                 if(turn === 1){
+                    bell.play()
                     turn = 2
                     messageDisplay.textContent = "Player 2 Turn"
                 }else if(turn === 2){
+                    bell.play()
                     turn = 1
                     messageDisplay.textContent = "Player 1 Turn"
                 }
@@ -268,11 +304,15 @@ let turn = 1;
                 alert(`Nice guess. Try again! You have ${p2guess} left`)
                 guesses2Left.innerText = p2guess;
                 if(p2guess === 0){
+                buzzer.play();
+                ooh.play;
                 clearInterval(stopwatch)
                 if(turn === 1){
+                    bell.play()
                     turn = 2
                     messageDisplay.textContent = "Player 2 Turn"
                 }else if(turn === 2){
+                    bell.play()
                     turn = 1
                     messageDisplay.textContent = "Player 1 Turn"
                 }
@@ -281,20 +321,19 @@ let turn = 1;
             }
                 
             
-            
-        }        document.querySelector(".input").value = ""
-
-
+        } document.querySelector(".input").value = ""
     }
-
 }
 startGame()
-
+// Change turn
 const changeTurns = () =>{
     if(turn === 1){
+        bell.play()
         turn = 2
+        
         messageDisplay.textContent = "Player 2 Turn"
     }else if(turn === 2){
+        bell.play()
         turn = 1
         messageDisplay.textContent = "Player 1 Turn"
     }
@@ -309,3 +348,28 @@ document.addEventListener('keydown', (press) =>{
         confirmWord()
     }
 })
+
+// Confirm the winner / winner function
+function winGame(){
+    if(score1Element.innerText = winningScore){
+        win.play();
+        alert(`Game over! Player 1 is the WINNER of the Game. CONGRATULATIONS!!! Press START/REFRESH button for a new game.`)
+        fanfare.play()
+        
+        }else if(player2Scoreboard.innerText = winningScore){
+        win.play();
+        alert(`Game over! Player 2 is the WINNER of the Game. CONGRATULATIONS!!! Press START/REFRESH button for a new game.`)
+        fanfare.play()
+        }
+}
+
+
+
+// Change background
+function changeBodyBg(color){
+    document.body.style.background = color;
+}
+
+function changeBdColor(color){
+document.querySelector('.gameContainer').style.backgroundColor = 'yellow';
+}

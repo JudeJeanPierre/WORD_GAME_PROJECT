@@ -9,7 +9,9 @@ body {
 }
     h1 {
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        text-shadow: 1px 1px 10px orange;
+        text-shadow: 1px 1px 11px orange;
+        word-wrap: break-word;
+        font-weight: bold;
     }
 .gameContainer {
     background-image: url("https://pngfolio.com/images/all_img/copy/1637498795tv-png.png");
@@ -19,10 +21,11 @@ body {
     /* border-style: double; */
     border-radius: 3%;
     border-width: 1em;
-    height: 79vh;
+    height: 76vh;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
+    
 }
 
 .players {
@@ -76,10 +79,14 @@ span{
 
 .message {
     color: orange;
-    font-weight: bold;
+    background-color: aquamarine;
+    width: 140px;
+    margin-left: 41%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: expanded;
+    font-size: 1.5em;
     margin-top: 3%;
-    margin-bottom: 5%
+    margin-bottom: 4%
 }
 
 .gameContent{
@@ -88,6 +95,7 @@ span{
 }
 .gameContent .word{
     font-size: 1.7em;
+    font-weight: bold;
     text-align: center;
     width: 100%;
     font-weight: 600;
@@ -95,6 +103,9 @@ span{
     letter-spacing: 1em;
     word-wrap: break-word;
     margin-left: 10px;
+    text-shadow: 1px 1px 11px darkgreen;
+    word-wrap: break-word;
+    
 }
 
 .gameContent .hint{
@@ -103,8 +114,8 @@ span{
     color: darkblue;
     width: 90%;
     margin-left: 6%;
-    margin-right: 4%;
-    margin-top: 5%;
+    margin-right: 3%;
+    margin-top: 4%;
     margin-bottom: 4%;
     text-align: left;
     /* margin-top: 10%; */
@@ -165,7 +176,7 @@ span{
 }
 
 .btnConfirm {
-    width: 100px;
+    width: 140px;
     height: 40px;
     background-color: yellow;
     color: green;
