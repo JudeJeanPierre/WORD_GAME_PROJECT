@@ -1,73 +1,95 @@
 <!DOCTYPE html>
 
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>JUDWORD GUESSING GAME</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" media="screen and (max-width: 1400px)" href="style.css">
-</head>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+        rel="stylesheet"
+        media="screen and (max-width: 1400px)"
+    href="style.css"
+    />
+    </head>
 
-<body>
+    <body>
     <h1>WELCOME TO JUDWORD GUESSING GAME</h1>
     <h3>Let's guess the Word</h3>
 
     <!-- Game container -->
     <div class="gameContainer">
-        <div class="players">
-            <div class="player1">
-                <h2 class="player1Scoreboard">Player 1 Score:
-                    <span> </span>
-                </h2>
-                <h3 class="p1guess">Guesses left:
-                    <span> </span>
-                </h3>
-            </div>
+    <div class="players">
+        <div class="player1">
+        <h2 class="player1Scoreboard">
+            Player 1 Score:
+            <span> </span>
+            </h2>
+            <h3 class="p1guess">
+            Guesses left:
+            <span> </span>
+            </h3>
+        </div>
 
-            <div class="player2">
-                <h2 class="player2Scoreboard">Player 2 Score:
-                    <span> </span>
-                </h2>
-                <h3 class="p2guess">Guesses left:
-                    <span></span>
-                </h3>
-
-            </div>
-
+        <div class="player2">
+        <h2 class="player2Scoreboard">
+            Player 2 Score:
+            <span> </span>
+        </h2>
+        <h3 class="p2guess">
+            Guesses left:
+            <span></span>
+        </h3>
+        </div>
         </div>
         <h3 class="message">Player 1 Turn</h3>
 
-        <!-- Game content -->
+        <!-- Game content  -->
         <div class="gameContent">
-            <div class="word"></div>
-            <div class="more">
-                <p class="hint">Hint: <span> </span>
-                </p>
-                <p class="time">Time left: <span><strong></strong></span>s
-                </p>
-            </div>
-            <input class="input" type="text" placeholder="Please, enter a valid word">
+        <div class="word"></div>
+        <div class="more">
+            <p class="hint">Hint: <span> </span></p>
+            <p class="time">
+            Time left: <span><strong></strong></span>s
+            </p>
+        </div>
+        <input
+            class="input"
+            type="text"
+            placeholder="Please, enter a valid word"
+        />
         </div>
     </div>
 
     <div class="btnContainer">
-        <div><button class="btnConfirm" onclick="confirmWord()">CONFIRM WORD</button></div>
-        <div><button class="btnBgColor" onclick="changeBodyBg('aquamarine');">CHANGE BACKGROUND</button></div>
-        <div><button class="btnBdColor" onclick="changeBdColor('yellow');">CHANGE BOARD</button></div>
+        <div>
+        <button class="btnConfirm" onclick="confirmWord()">CONFIRM WORD</button>
+        </div>
+        <div>
+        <button class="btnBgColor" onclick="changeBodyBg('aquamarine');">
+            CHANGE BACKGROUND
+        </button>
+        </div>
+        <div>
+        <button class="btnBdColor" onclick="changeBdColor('yellow');">
+            CHANGE BOARD
+        </button>
+        </div>
         <div><button class="btnStart">START NEW GAME</button></div>
     </div>
 
     <div class="infoContainer">
         <h4>Instructions</h4>
-        <hr>
+        <hr />
         <ol>
-            <li>The game is played by turns: Player 1, then Player 2</li>
-            <li>When it's a player's turn, he has 20 seconds to guess the word and 3 guesses</li>
-            <li>Each word winned equals 1 point, thus score increases by 1</li>
-            <li>The player to reach 10 points wins the game</li>
+        <li>The game is played by turns: Player 1, then Player 2</li>
+        <li>
+            When it's a player's turn, he has 20 seconds to guess the word and 3
+            guesses
+        </li>
+        <li>Each word winned equals 1 point, thus score increases by 1</li>
+        <li>The player to reach 10 points wins the game</li>
         </ol>
     </div>
 
@@ -75,34 +97,31 @@
     <div>
         <!-- Applause -->
         <audio id="applause">
-            <source src="/audio/applause.wav" type="audio/wav">
+        <source src="/audio/applause.wav" type="audio/wav" />
         </audio>
         <!-- Ohh -->
         <audio id="ooh">
-            <source src="/audio/ooh.mp3" type="audio/mp3">
+        <source src="/audio/ooh.mp3" type="audio/mp3" />
         </audio>
         <!-- Buzzer -->
         <audio id="buzzer">
-            <source src="/audio/buzzer.mp3" type="audio/mp3">
+        <source src="/audio/buzzer.mp3" type="audio/mp3" />
         </audio>
         <!-- Wrong -->
         <audio id="wrong">
-            <source src="/audio/wrong.wav" type="audio/wav">
+        <source src="/audio/wrong.wav" type="audio/wav" />
         </audio>
         <!-- Bell -->
         <audio id="bell">
-            <source src="/audio/bell.mp3" type="audio/mp3">
+        <source src="/audio/bell.mp3" type="audio/mp3" />
         </audio>
         <audio id="win">
-            <source src="/audio/win.mp3" type="audio/mp3">
+        <source src="/audio/win.mp3" type="audio/mp3" />
         </audio>
         <audio id="fanfare">
-            <source src="/audio/fanfare.wav" type="audio/wav">
+        <source src="/audio/fanfare.wav" type="audio/wav" />
         </audio>
     </div>
-
-
     <script src="wordguess.js"></script>
-</body>
-
+    </body>
 </html>

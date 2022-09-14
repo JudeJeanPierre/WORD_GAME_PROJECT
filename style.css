@@ -1,6 +1,5 @@
 body {
     background-image: url("https://images.genial.ly/5c9357997082c2326aa1498d/062d3b29-e723-411b-86f5-54888b2d1013.gif?genial&1653091200190");
-    /* background-repeat: no-repeat; */
     background-size: cover;
     background-color: aquamarine;
     background-size: cover;
@@ -17,17 +16,13 @@ body {
     background-image: url("https://pngfolio.com/images/all_img/copy/1637498795tv-png.png");
     background-size: cover;
     background-color: whitesmoke;
-    /* border: solid rgb(248, 244, 244); */
-    /* border-style: double; */
     border-radius: 3%;
     border-width: 1em;
     height: 76vh;
     width: 60%;
     margin-left: 20%;
     margin-right: 20%;
-    
 }
-
 .players {
     width: 92%;
     height: 20vh;
@@ -105,9 +100,7 @@ span{
     margin-left: 10px;
     text-shadow: 1px 1px 11px darkgreen;
     word-wrap: break-word;
-    
 }
-
 .gameContent .hint{
     font-size: 1em;
     font-weight: bold;
@@ -118,7 +111,6 @@ span{
     margin-top: 4%;
     margin-bottom: 4%;
     text-align: left;
-    /* margin-top: 10%; */
 }
 .hint span{
     color: darkblue;
@@ -135,13 +127,14 @@ span{
     width: 90%;
     height: 30px;
     background: transparent;
+    border: 1px solid rgb(185, 185, 136);
     border-radius: 5px;
     outline: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1em;
-    
+    box-shadow: inset 1px 1px 5px pink,
+                inset -1px 1px 5px pink;
 }
-
 .btnContainer {
     /* border: solid orange; */
     width: 60%;
@@ -153,8 +146,8 @@ span{
     margin-right: 20%;
     margin-top: 1%;
 }
-
 .btnBgColor {
+    border: solid gainsboro;
     width: 180px;
     height: 40px;
     background-color: orange;
@@ -162,10 +155,11 @@ span{
     font-weight: bold;
     cursor: pointer;
     border-radius: 10%;
+    box-shadow: inset 1px 1px 5px pink,
+                inset -1px 1px 5px pink;
 }
-
 .btnStart {
-    border: solid green;
+    border: solid gainsboro;
     width: 150px;
     height: 40px;
     background-color: lime;
@@ -173,9 +167,11 @@ span{
     font-weight: bold;
     cursor: pointer;
     border-radius: 10%;
+    box-shadow: inset 1px 1px 5px pink,
+                inset -1px 1px 5px pink;
 }
-
 .btnConfirm {
+    border: solid gainsboro;
     width: 140px;
     height: 40px;
     background-color: yellow;
@@ -183,9 +179,12 @@ span{
     font-weight: bold;
     cursor: pointer;
     border-radius: 10%;
+    box-shadow: inset 1px 1px 5px pink,
+                inset -1px 1px 5px pink;
 }
 
 .btnBdColor {
+    border: solid gainsboro;
     width: 180px;
     height: 40px;
     background-color: pink;
@@ -193,8 +192,9 @@ span{
     font-weight: bold;
     cursor: pointer;
     border-radius: 10%;
+    box-shadow: inset 1px 1px 5px pink,
+                inset -1px 1px 5px pink;
 }
-
 .infoContainer {
     border: solid blue;
     border-style: dotted;
@@ -205,9 +205,7 @@ span{
     margin-left: 20%;
     margin-right: 20%;
     margin-top: 2%;
-
 }
-
 h4 {
     text-align: left;
     margin-left: 2em;
@@ -217,7 +215,6 @@ h4 {
     font-style: italic;
     color: rgb(255, 0, 238);
 }
-
 ol {
     text-align: left;
     font-size: .7em;
